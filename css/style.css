@@ -1,0 +1,61 @@
+/* 
+    RESET
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    GENERAL
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, main {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.my-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.my-row > * {
+    margin: 0 10px;
+}
+
+.my-col-small {
+    width: calc((25%) - 20px);
+}
+
+.my-col-big {
+    width: calc(50% - 20px);
+}
+
+/* 
+    DEBUG
+*/
+.debug header,
+.debug footer {
+    background-color: #9A9AF5;
+    height: 100px;
+}
+
+.debug .my-col-small {
+    background-color: #3535EC;
+    height: 200px;
+}
+
+.debug .my-col-big {
+    background-color: #F71668;
+    height: 300px;
+}
